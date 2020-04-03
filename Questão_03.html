@@ -1,0 +1,38 @@
+<html>
+
+<head>
+
+<title>Lista Aldo</title>
+<meta charset="utf-8">
+<script>
+  
+
+    function trocaCor(cor) {
+      switch(cor){
+        case'Azul': document.bgColor = "Blue";break;
+        case'Amarelo': document.bgColor = "yellow";break;
+        case'Rosa': document.bgColor = "Pink";break;
+        case'Preto': document.bgColor = "black";break;
+      }
+    }
+
+
+</script>
+
+
+</head>
+<body>
+
+      <br>
+      <h2> Questão 3 </h2>
+      <h2> Selecione a cor desejada: </h2>
+          <select name="selecionaCor">
+              <option value=""  onclick="">Selecione</option>
+              <option value="Azul"  onclick="trocaCor('Azul');">Azul</option>
+              <option value="Amarelo" onclick="trocaCor('Amarelo');">Amarelo</option>
+              <option value="Rosa" onclick="trocaCor('Rosa');">Rosa</option>
+              <option value="Preto" onclick="trocaCor('Preto');">Preto</option>
+          </select>
+ 
+ </body>
+ </html>

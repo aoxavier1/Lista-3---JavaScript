@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Lista Aldo</title>
+    <meta charset="utf-8">
+</head>
+    <script>
+        function Nomes() {
+
+    var a1 = document.getElementById('a1').value;
+
+    var a2 = document.getElementById('a2').value;
+
+    var a3 = document.getElementById('a3').value;
+
+    var a4 = document.getElementById('a4').value;
+
+    var a5 = document.getElementById('a5').value;
+
+    var Dados = [];
+    Dados.push(a1, a2, a3, a4, a5);
+    Dados.reverse(); 
+    document.getElementById('c1').value = Dados[0];
+
+    document.getElementById('c2').value = Dados[1];
+
+    document.getElementById('c3').value = Dados[2];
+
+    document.getElementById('c4').value = Dados[3];
+
+    document.getElementById('c5').value = Dados[4];
+
+    }
+
+    </script>
+    
+<body>
+
+    <div>
+        <form id="Questão 7">
+            Primeiro nome: <input type="text" id="a1">
+            <p></p>
+            Segundo nome: <input type="text" id="a2">
+            <p></p>
+            Terceiro nome: <input type="text" id="a3">
+            <p></p>
+            Quarto nome: <input type="text" id="a4">
+            <p></p>
+            Quinto nome: <input type="text" id="a5">
+            <p></p>
+            <p></p>
+            <input type="button" value="Inverter" onclick="Nomes();">
+        </form>
+    </div>
+</body>
+
+</html>

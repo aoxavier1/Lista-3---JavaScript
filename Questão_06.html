@@ -1,0 +1,53 @@
+<html>
+
+<head>
+
+	<title>Lista Aldo</title>
+  <meta charset="utf-8">
+<script>
+
+    var fraseUser = prompt("Escreva uma palavra");
+    function frasePalindromo(fraseUser){
+      fraseUser=fraseUser.toLowerCase().replace(/\s/g,"");
+      fraserReverse=fraseUser.split("").reverse().toString();
+      for (var i = 0; i < ((fraserReverse.length)-1); i++) {
+        fraserReverse=fraserReverse.replace(",","");
+      }; 
+      if(fraseUser==fraserReverse){ 
+        alert (resultado="É um palindromo!");
+      }
+      else{   
+        alert (resultado="não é um palindromo!");
+      }
+    }
+    frasePalindromo(fraseUser);
+    
+</script>
+</head>
+
+       
+        <nav>
+          
+        </nav>
+
+
+     			<div class="conteudo">
+     					<h3> Questão 6 </h3>
+
+             <h4> Quer saber se uma palavra é palindromo? </h4>
+
+              <ul>
+
+                <li>
+                  <a href="Questão_06.html">
+                         Clique aqui e digite a palavra
+                  </a>
+                 </li>
+				</div>
+
+
+
+<body>
+</body>
+
+</html>

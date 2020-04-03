@@ -1,0 +1,55 @@
+<html>
+
+<head>
+
+	<title>Lista Aldo</title>
+  <meta charset="utf-8">
+   
+         <script>
+          function mostra(id){
+            if (document.getElementById(id).style.display =='block'){
+              document.getElementById(id).style.display = 'none';
+              document.getElementById('b'+ id).value="Mostar";
+            }else { document.getElementById(id).style.display ='block';
+            document.getElementById('b'+ id).value="Ocultar";
+          }
+          }
+         </script>
+
+
+
+
+</head>
+      
+        <nav>
+          <ul>
+
+	       	<li>
+	           <a href="Questão_04.html">
+			               Voltar
+	           </a>
+            </li>
+        </nav>
+
+
+     			<div class="conteudo">
+     					<h3> Questão 4 </h3>
+           
+               <br>
+
+                  <div id="Texto01" class="hidden">
+                        Texto 1 <br> Aula 1 - JavaScript - 07/03/2019.
+                  </div>
+
+                    <br>
+
+                    <input id="btxt1" type="button"  value ="Mostrar" onClick="mostra('Texto01')" />
+
+
+
+				</div>
+
+<body>
+</body>
+
+</html>

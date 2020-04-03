@@ -1,0 +1,79 @@
+<html>
+
+<head>
+
+	<title>Lista Aldo</title>
+	<meta charset="utf-8">
+	   <link rel="stylesheet" type="text/css" media="screen" href="Estilo_da_pagina.css">
+			<script language="javascript" type="text/javascript">
+					function trocar1(){
+					var obj=document.getElementById('corpo');
+						if(obj.className==''){
+							obj.className='fundo';
+						}else{
+							obj.className='fundoAzul';
+ 							 }
+						}
+			</script>
+			<script language="javascript" type="text/javascript">
+				function trocar2(){
+					var obj=document.getElementById('corpo');
+						if(obj.className==''){
+							obj.className='fundo';
+						}else{
+							obj.className='fundoAmarelo';
+ 						}
+				}
+			</script>
+    		<script language="javascript" type="text/javascript">
+				function trocar3(){
+					var obj=document.getElementById('corpo');
+						if(obj.className==''){
+							obj.className='fundo';
+						}else{
+							obj.className='fundoVerde';
+ 					 	}
+				}
+			</script>
+			<script language="javascript" type="text/javascript">
+					function trocar4(){
+					var obj=document.getElementById('corpo');
+						if(obj.className==''){
+							obj.className='fundo';
+						}else{
+							obj.className='fundoVermelho';
+ 							 }
+						}
+			</script>
+
+</head>
+        <nav>
+          <ul>
+	       	<li>
+	           <a href="Questão_1.html">
+			          Voltar
+	           </a>
+            </li>
+        </nav>
+
+
+     			<div class="conteudo">
+     					<h3> Questão 1 </h3>
+           
+           				Escolha um botão e altere a cor de fundo:
+           				<br> <br>
+           					<body id="corpo" class="fundo">
+		   					<button onclick="trocar1()">Cor:Azul</button>
+           					<body id="corpo" class="fundo">
+		   					<button onclick="trocar2()">Cor:Amarelo</button>
+           					<body id="corpo" class="fundo">
+		   					<button onclick="trocar3()">Cor:Verde</button>
+           					<body id="corpo" class="fundo">
+		   					<button onclick="trocar4()">Cor:Vermelho</button>
+		   					<br>
+		   					<br>
+				</div>
+<body>
+</body>
+
+</html>

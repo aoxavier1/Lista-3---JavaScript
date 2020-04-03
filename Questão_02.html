@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Lista Aldo</title>
+    <meta charset="utf-8">
+<script>
+function bgChange(bg) {
+  document.body.style.background = bg;
+}
+</script>
+</head>
+<body>
+
+<h2>Cores de Fundo</h2>
+<p>Passe o mouse sobre alguma cor </p>
+
+<table style="width:200px;height:50px">
+  <tr>
+    <td onmouseover="bgChange(this.style.backgroundColor)" 
+    onmouseout="bgChange('transparent')"
+    style="background-color:violet">
+    </td>
+    <td onmouseover="bgChange(this.style.backgroundColor)" 
+    onmouseout="bgChange('transparent')"
+    style="background-color:blue">
+    </td>
+    <td onmouseover="bgChange(this.style.backgroundColor)" 
+    onmouseout="bgChange('transparent')"
+    style="background-color:Silver">
+    </td>
+    <td onmouseover="bgChange(this.style.backgroundColor)" 
+    onmouseout="bgChange('transparent')"
+    style="background-color:black">
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
